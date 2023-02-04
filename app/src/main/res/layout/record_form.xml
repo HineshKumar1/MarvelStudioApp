@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/et_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="142dp"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnWriteData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Buttton"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:onClick="onUploadClicked"
+        />
+
+</LinearLayout>
